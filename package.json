@@ -3,5 +3,8 @@
     "@playwright/test": "^1.42.1",
     "@types/node": "^20.12.3"
   },
-  "scripts": {}
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  }
 }
